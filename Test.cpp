@@ -109,7 +109,7 @@ TEST_CASE("Speacial inputs"){
 				"^^^^^^^\n"
 				"^^^^^^^\n"
 				"^^^^^^^");
-	CHECK(nospaces(mat(7,7,'^','*'))== s);
+	CHECK(nospaces(mat(7,7,'^','^'))== s);
 	s=nospaces("^^^^^\n"
 				"^^^^^\n"
 				"^^^^^\n"
